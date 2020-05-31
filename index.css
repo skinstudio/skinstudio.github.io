@@ -1,1 +1,29 @@
-body { background: aqua; }
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+}
+    
+    header {
+        background-color: pink;
+            color: black;
+            padding: 30px;
+}
+h1 {
+    font-size: 45px;
+}
+section  {
+    background-color:gray;
+    display: inline-block;
+    padding: 150px;
+    margin: 10px;
+    color: black;
+}
+footer {
+    background-color: salmon;
+    margin: 5px;
+    padding: 40px;
+    color: black;
+}

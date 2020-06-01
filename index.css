@@ -1,29 +1,50 @@
 body {
-    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#edf6f9;
     color: black;
     text-align: center;
     margin: 0px;
     border: 0px;
 }
     
-    header {
-        background-color: pink;
-            color: black;
-            padding: 30px;
+header {    background-color: #e29578;
+            color:gray;
+            margin: 0px;
+            }
+           
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+      }
+li { background-color: #ffddd2;
+    font:white;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10%;
 }
+
 h1 {
-    font-size: 45px;
+    font-size: 40px;
+    background-color: #e29578;
+    color: white;
+   
 }
+
 section  {
-    background-color:gray;
-    display: inline-block;
+    background-color: #83c5be;
+    display: inline-flex;
     padding: 150px;
     margin: 10px;
-    color: black;
+    color: white;
+    font-size: 25px;
+    font-style: oblique;
 }
 footer {
-    background-color: salmon;
+    background-color:#006d77;
     margin: 5px;
     padding: 40px;
-    color: black;
+    color: white;
 }
